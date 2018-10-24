@@ -16,37 +16,34 @@
         <h1>Calculadora de Notas</h1>
         <p class="text-white">Preencha os campos com as notas das avaliações ;)</p>
     </header>
-    <div class="col" id="my-alert">
-    </div>
-    <div class="">
-        <form id="inputnotas" class="form-inline">
-            <div class="input-group mb-1 col-md-4 col-sm-12 col-lg-4">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">1ª Nota</span>
-                </div>
-                <input autofocus name="my-input" type="number" class="form-control" placeholder="Digite sua Nota">
+    <div class="col" id="my-alert"></div>
+    <form id="inputnotas" class="form-inline">
+        <div class="input-group mb-1 col-md-4 col-sm-12 col-lg-4">
+            <div class="input-group-prepend">
+                <span class="input-group-text">1ª Nota</span>
             </div>
-            <div class="input-group mb-1 col-md-4 col-sm-12 col-lg-4">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">2ª Nota</span>
-                </div>
-                <input name="my-input" type="number" class="form-control" placeholder="Digite sua Nota">
-            </div>
-            <div class="input-group mb-1 col-md-4 col-sm-12 col-lg-4">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">3ª Nota</span>
-                </div>
-                <input name="my-input" type="number" class="form-control" placeholder="Digite sua Nota">
-            </div>
-        </form>
-        <div class="col form-inline">
-            <button add-notas class="btn btn-outline-light mt-2 mr-3">+</button>
-            <button reset-notas class="btn btn-outline-light mt-2 mr-4 col-5 col-sm-5 col-md-3">reset
-            </button>
-            <button result class="btn btn-danger btn-block mt-2" data-toggle="modal" data-target="#exampleModal">Calcular</button>
+            <input autofocus name="my-input" type="number" class="form-control" placeholder="Digite sua Nota">
         </div>
-        <div id="demo"></div>
+        <div class="input-group mb-1 col-md-4 col-sm-12 col-lg-4">
+            <div class="input-group-prepend">
+                <span class="input-group-text">2ª Nota</span>
+            </div>
+            <input name="my-input" type="number" class="form-control" placeholder="Digite sua Nota">
+        </div>
+        <div class="input-group mb-1 col-md-4 col-sm-12 col-lg-4">
+            <div class="input-group-prepend">
+                <span class="input-group-text">3ª Nota</span>
+            </div>
+            <input name="my-input" type="number" class="form-control" placeholder="Digite sua Nota">
+        </div>
+    </form>
+    <div class="col form-inline">
+        <button add-notas class="btn btn-outline-light mt-2 mr-3">+</button>
+        <button reset-notas class="btn btn-outline-light mt-2 mr-4 col-5 col-sm-5 col-md-3">reset</button>
+        <button result class="btn btn-danger btn-block mt-2" data-toggle="modal" data-target="#exampleModal">Calcular
+        </button>
     </div>
+    <div id="demo"></div>
 </div>
 <!-- Javascirpt -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
